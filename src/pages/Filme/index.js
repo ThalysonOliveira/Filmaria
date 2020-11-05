@@ -14,13 +14,18 @@ export default class Filme extends Component {
     const url = `https://sujeitoprogramador.com/r-api/?api=filmes/${id}`
     const reponse = await fetch(url)
     const f = await reponse.json()
-    this.setState({filme: f})
+    this.setState({ filme: f })
   }
 
   render() {
     return (
-      <div>
-
+      <div className="filme-info">
+        <h1>{this.state.filme.nome}</h1>
+        <img src={this.state.filme.foto} />
+        {this.state.filme.length !== 0 &&
+          <h3>Sinopse</h3>
+        }
+        {this.state.filme.sinopse}
       </div>
     )
   }
