@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import './home.css'
 
 export default class Home extends Component {
     constructor(props) {
@@ -18,8 +19,8 @@ export default class Home extends Component {
 
     render() {
         return (
-            <div>
-                <div>
+            <div className="container">
+                <div className="lista-filme">
                     {this.state.filmes.map((filme) => {
                         return (
                             <article key={filme.id} className="filme">
