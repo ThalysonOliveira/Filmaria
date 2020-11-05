@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './filme.css'
 
 export default class Filme extends Component {
   constructor(props) {
