@@ -1,7 +1,9 @@
 .filme-info{
     display: flex;
     flex-direction: column;
-    max-width: 900px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .filme-info img{
