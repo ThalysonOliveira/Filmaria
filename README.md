@@ -37,4 +37,4 @@ Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
 <a id="sobre"></a>
 ## :bookmark: Sobre
 
-Filmaria, desenvolvido para por em prática os conceitos aprendidos sobre comsumo de api, routas, props e estates. Foi utilizada api desenvolvida pelo @sujeitoprogramador
+Filmaria, desenvolvido para por em prática os conceitos aprendidos sobre comsumo de api, rotas, props e estates. Foi utilizada api desenvolvida pelo @sujeitoprogramador
