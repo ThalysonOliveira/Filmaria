@@ -1,14 +1,16 @@
 import React from 'react'
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Header from './components/Header'
 
-const Routes = ()=>{
-    <BrowserRouter>
-        <Header/>
-        <Switch>
+const Routes = () => {
+    return (
+        <BrowserRouter>
+            <Header />
+            <Switch>
 
-        </Switch>
-    </BrowserRouter>
+            </Switch>
+        </BrowserRouter>
+    )
 }
 
 export default Routes
